@@ -1,35 +1,35 @@
 [
     {
       "id": 1,
-      "group":1,
+      "group":0,
       "content": "Gospel of Matthew",
       "start": "0080-01-01",
       "end": "0090-01-01"
     },
     {
         "id": 2,
-        "group":1,
+        "group":0,
         "content": "Gospel of Mark",
         "start": "0065-01-01",
         "end": "0073-01-01"
       },
       {
         "id": 3,
-        "group":1,
+        "group":0,
         "content": "Gospel of Luke",
         "start": "0080-01-01",
         "end": "0090-01-01"
       },
       {
         "id": 4,
-        "group":1,
+        "group":0,
         "content": "Gospel of John",
         "start": "0090-01-01",
         "end": "0110-01-01"
       },
       {
         "id": 5,
-        "group":2,
+        "group":1,
         "content": "BC test",
         "start": "-000100-01-01",
         "end": "-000090-01-01"
