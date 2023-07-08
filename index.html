@@ -32,10 +32,22 @@
   // Configuration for the Timeline
   var options = {};
 
+
+  // create a data set with groups
+  var names = ['Books','Test'];
+  var groups = new vis.DataSet();
+  for (var g = 0; g < groupCount; g++) {
+    groups.add({id: g, content: names[g]});
+  }
+
   var json = $.getJSON("data/bible.json")
   .done(function(data){
     var items = new vis.DataSet(data);
-    var timeline = new vis.Timeline(container, items, options);
+    var timeline = new vis.Timeline(container);
+    timeline.setOptions(options);
+    timeline.setGroups(groups);
+    timeline.setItems(items);
+
   });
 
   
