@@ -32,7 +32,7 @@
   // Configuration for the Timeline
   var options = {};
 
-  var json = $.getJSON("data/test.json")
+  var json = $.getJSON("data/bible.json")
   .done(function(data){
     var items = new vis.DataSet(data);
     var timeline = new vis.Timeline(container, items, options);
