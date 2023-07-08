@@ -36,7 +36,7 @@
   // create a data set with groups
   var names = ['Books','Test'];
   var groups = new vis.DataSet();
-  for (var g = 0; g < groupCount; g++) {
+  for (var g = 0; g < names.length; g++) {
     groups.add({id: g, content: names[g]});
   }
 
